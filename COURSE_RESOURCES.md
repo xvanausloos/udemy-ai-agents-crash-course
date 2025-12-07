@@ -24,7 +24,7 @@ code .env
 ## Running the Chatbot
 One-time setup
 ```
-cd chatbot && chainlit run 4_authentication.py --port 10000 --host 0.0.0.0
+cd chatbot && chainlit run .chatbot/4_authentication.py --port 10000 --host 0.0.0.0
 ```
 
 The URL for our demo logo: 
